@@ -1,21 +1,13 @@
-# Flask and Server
 Flask==3.1.0
 flask-cors==4.0.1
 gunicorn==21.2.0
 
-# Core Face Recognition Stack
 deepface==0.0.93
 opencv-python-headless==4.10.0.84
-
-# TensorFlow CPU (latest, compatible with Python 3.13)
 tensorflow-cpu==2.20.0
 keras==3.12.0
-
-# Utilities
 numpy==1.26.4
 pandas==2.2.3
 pillow==10.4.0
 tqdm==4.67.1
-
-# SQL Server driver
 pyodbc==5.2.0
