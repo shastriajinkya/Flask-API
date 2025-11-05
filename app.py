@@ -23,7 +23,7 @@ CONN_STR = (
 )
 
 # ----------------------------------------------------
-# Helper: Decode base64 → OpenCV image
+# Helper: Decode base64 → OpenCV image 11
 # ----------------------------------------------------
 def decode_base64_image(base64_string):
     try:
