@@ -1,8 +1,11 @@
 services:
   - type: web
-    name: flask-face-api
+    name: flask-face-api-1
     env: python
     plan: free
-    preBuildCommand: echo "Preparing build..."
-    buildCommand: pip install -r requirements.txt
+    region: oregon
+    buildCommand: |
+      echo "📦 Preparing build..."
+      pip install --upgrade pip
+      pip install -r requirements.txt
     startCommand: gunicorn app:app
